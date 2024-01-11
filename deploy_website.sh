@@ -13,7 +13,7 @@ if [[ "$1" = "--local" ]]; then local=true; fi
 if ! [[ ${local} ]]; then
   set -ex
 
-  REPO="git@github.com:uber/simple-store.git"
+  REPO="git@github.com:muandrew/simple-store.git"
   DIR=temp-clone
 
   # Delete any existing temporary website clone
